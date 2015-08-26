@@ -1,0 +1,15 @@
+import unittest
+import pyms.msparser as msparser
+import tempfile
+import os
+
+class TestMsparser(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def test_empty_file():
+        try:
+            tmp_dir = tempfile.mkdtemp(prefix="TestMsparser")
+            filename = 
+        
