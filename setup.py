@@ -5,5 +5,8 @@ setup(name='pyms',
       description='Ms Wrapper',
       author='Thomas Dias-Alves',
       packages=['pyms'],
+      install_requires=[
+          'numpy'
+      ]
       test_suite='pyms.test',
       zip_safe=False)
