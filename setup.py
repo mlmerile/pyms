@@ -7,6 +7,6 @@ setup(name='pyms',
       packages=['pyms'],
       install_requires=[
           'numpy'
-      ]
+      ],
       test_suite='pyms.test',
       zip_safe=False)
