@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='pyms',
       version='0.1',
       description='Ms Wrapper',
       author='Thomas Dias-Alves',
-      packages=['pyms'],
+      packages=find_packages(),
       install_requires=[
           'numpy'
       ],
